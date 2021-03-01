@@ -1,0 +1,8 @@
+# Directories
+/bin/
+/Debug/
+/x64/
+
+# File Extensions
+*.exe
+*.out
