@@ -26,7 +26,7 @@ void shiftString(char* target)
         puts(target);
         temp = *target;
         for (j = 0; j < len - 1; j++)
-            *(target + j) = *(target + j + 1);
+            target[j] = target[j + 1];
         target[len - 1] = temp;
     }
 }
