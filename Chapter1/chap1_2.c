@@ -13,7 +13,7 @@ int main(void)
     for (i = 1; i <= SIZE; i++)
         ABC(input, i);
     for (i = 0; i < SIZE; i++)
-        printf(" %d", *(input + i));
+        printf(" %d", input[i]);
     putchar('\n');
     return 0;
 }
