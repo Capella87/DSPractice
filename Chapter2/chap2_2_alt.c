@@ -26,15 +26,15 @@ int mostOnes(int arr[][MAX], int n)
     int i = 0, j = 0;
     int result = 0;
 
-    while (1)
+    while (i < n && j < n)
     {
-        while (arr[i][j] == 1 && j < n) // 0이 나올 때까지 오른쪽으로 이동
-            j++;
-        if (j == n) return i; // 마지막 행에 도달하기 전에 마지막 열에 도달한 경우
-        result = i;
-        while (arr[i][j] == 0 && i < n) // 1이 나올 때까지 계속 밑으로 이동
+        if (arr[i][j] == 0) // 0이면 아래 행으로 이동
             i++;
-        if (i == n) return result;  // 마지막 행에 도달한 경우
+        else
+        {
+            result = i;
+            j++;
+        }
     }
 
     return result;
