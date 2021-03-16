@@ -2,6 +2,7 @@
 /bin/
 /Debug/
 /x64/
+/.vscode/
 
 # File Extensions
 *.exe
