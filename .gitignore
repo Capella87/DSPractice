@@ -1,8 +1,9 @@
 # Directories
-/bin/
-/Debug/
 /.idea/
 /.vscode/
+/bin/
+/cmake-build-debug/
+/Debug/
 /x64/
 
 # File Extensions
