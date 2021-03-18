@@ -1,13 +1,24 @@
 # Directories
 /bin/
 /Debug/
-/x64/
-/.vscode/
 /.idea/
+/.vscode/
+/x64/
 
 # File Extensions
+*.com
+*.class
+*.dll
 *.exe
+*.o
 *.out
+*.so
 
 # Specific Files
-/CMakeLists.txt
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+CMakeLists.txt
+Thumbs.db
