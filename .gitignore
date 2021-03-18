@@ -3,7 +3,11 @@
 /Debug/
 /x64/
 /.vscode/
+/.idea/
 
 # File Extensions
 *.exe
 *.out
+
+# Specific Files
+/CMakeLists.txt
