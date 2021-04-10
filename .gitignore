@@ -1,9 +1,11 @@
 # Directories
 /.idea/
+/.kdev4/
 /.vscode/
 /bin/
 /cmake-build-debug/
 /Debug/
+/Release/
 /x64/
 
 # File Extensions
@@ -11,14 +13,17 @@
 *.class
 *.dll
 *.exe
+*.kdev4
 *.o
 *.out
 *.so
+*.swo
+*.swp
 
 # Specific Files
+._*
 .DS_Store
 .DS_Store?
-._*
 .Spotlight-V100
 .Trashes
 CMakeLists.txt
