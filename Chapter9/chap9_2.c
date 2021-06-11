@@ -91,7 +91,7 @@ void preorderTrv(Node* pos, const int id, bool prt) // preorder traversal
             if (pos->right) preorderTrv(pos->right, id, true);
         }
 
-        return true;
+        return;
     }
     else
     {
@@ -100,7 +100,7 @@ void preorderTrv(Node* pos, const int id, bool prt) // preorder traversal
             if (pos->left) preorderTrv(pos->left, id, false);
             if (pos->right) preorderTrv(pos->right, id, false);
         }
-        return false;
+        return;
     }
 }
 
