@@ -2,6 +2,8 @@
 학교 자료구조 실습 모음 | Data Structure Practice
 
 ## What is this repository ? | 이 저장소는 무엇을 담고 있나요 ?
+This repository has assignments and practice source codes at Data Structure subject taken in Spring semester in 2021.
+이 저장소는 제가 2021년 1학기에 수강했던 자료구조 실습과 과제 코드를 모아놓은 곳입니다.
 
 ## DISCLAIMER | 면책 사항
 Please Do NOT copy and submit source code in this repository diretly to your assignment, practice session or exams. I don't have responsibility for any disadvantages after ignoring this disclaimer.<br>
@@ -19,5 +21,5 @@ To see conditions of license, Please visit <https://unlicense.org> or see LICENS
 <br><br>
 
 ---
-Last updated on Jun 16, 2021<br>
+Last updated on Jun 17, 2021<br>
 Author : [Capella87](https://github.com/Capella87)
